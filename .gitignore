@@ -208,3 +208,34 @@ __marimo__/
 
 
 ny_taxi_clickhouse_data/
+keys/
+
+# Terraform-generated directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*.backup
+
+# Crash log files
+crash.log
+
+# Sensitive variable files (if not using secure methods for variables)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+**/.terraform.lock.hcl
+**/terraform.tfstate.backup
